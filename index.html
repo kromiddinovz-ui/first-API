@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     
+    <meta charset="UTF-8" />
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <title>3-dars</title>
+     
+    <!-- css -->
+     
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+     
+    <h1>CRUD</h1>
+
+     
+    <ol>
+         
+      <li>
+        <strong>C - Create(POST)</strong> (serverga ma'lumot yuborish/qo'shish)
+      </li>
+         
+      <li><strong>R - Read(GET)</strong> (serverdan ma'lumot olish)</li>
+         
+      <li>
+        <strong>U - Update(PUT/PATCH)</strong> (serverdagi ma'lumotni yangilash)
+      </li>
+         
+      <li>
+        <strong>D - Delete(DELETE)</strong> (serverdagi ma'lumotni o'chirish)
+      </li>
+       
+    </ol>
+
+     
+    <!-- 1.form -->
+      
+    <form id="form">
+          <input class="imgInp" type="url" placeholder="productImg" ... /> 
+        
+      <input class="titleInp" type="text" placeholder="productTitle..." />   
+       <input class="descInp" type="text" placeholder="productInfo..." />   
+       <input class="priceInp" type="number" placeholder="productImg..." />  
+        <button class="submit-btn">Create a Product</button>   
+    </form>
+
+     
+    <section class="wrapper">
+         
+      <!-- GET orqali malumotlar keladi -->
+       
+    </section>
+
+     
+    <!-- axios -->
+      
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+     
+    <!-- js -->
+     
+    <script src="./app.js"></script>
+  </body>
+</html>
